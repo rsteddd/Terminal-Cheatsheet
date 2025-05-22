@@ -85,6 +85,11 @@ export const commands: CommandCategory[] = [
                 description: 'Скопіювати SSH-ключ у буфер обміну',
                 example: 'pbcopy < ~/.ssh/id_rsa.pub',
             },
+            {
+                command: 'sudo killall coreaudiod  ',
+                description: 'Перезапустити звук',
+                example: 'sudo killall coreaudiod',
+            }
         ],
     },
 
